@@ -1,16 +1,18 @@
 # EFI
  # My Desktop Hackintosh made using: 
- # Gigabyte z370n-WiFi (Bios F14b)
+ # Gigabyte z370n-WiFi (Bios F14 with patched CFC-lock)
  # AMD Radeon RX480 8GB
  # 
- # OpenCore 0.7.3
+ # OpenCore 0.7.7
+ #
+ # EFI UPDATE JAN 12 2022 
 
 
 # System Info
 
 Host                           HackOS
 
-OS                             macOS Big Sur Version 11.5.2
+OS                             macOS Monterey Version 12.0.1 (Build 21A559)
 
 RAM                            16.00 GB
 
@@ -49,3 +51,15 @@ Metal Low Power                No
 Metal Headless                 No
 
 
+# WiFi + BT
+
+WiFi device                    Broadcom BCM4360 802.11ac
+
+BT device (part of BCM4360)    Broadcom BCM2046B1  
+
+
+# Audio
+
+Device Name                   realtek ALC1220
+
+Layout-ID                     7
